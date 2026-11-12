@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main(){
+    int a=46;
+    int b=50;
+    printf(" a=%d",a);
+    printf(" b=%d ",b);
+    a=a+b;
+    b=a-b;
+    a=a-b;
+    printf(" a=%d",a);
+    printf(" b=%d ",b);
+    return 0;
+    
+}
